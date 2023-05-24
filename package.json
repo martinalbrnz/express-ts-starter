@@ -1,0 +1,25 @@
+{
+    "name": "express-ts-starter",
+    "version": "0.0.1",
+    "description": "Express typescript starter",
+    "main": "src/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "npx nodemon",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "npx prettier --write ."
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.17",
+        "nodemon": "^2.0.22",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    }
+}
