@@ -1,8 +1,9 @@
 {
-    "editor.codeActionsOnSave": {
-        "source.fixAll": true,
-        "source.organizeImports": true
-    },
-    "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "modifications"
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modifications",
+  "eslint.format.enable": true
 }
